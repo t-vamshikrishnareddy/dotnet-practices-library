@@ -14,6 +14,6 @@
     "alpha": "standard-version -p alpha -i CHANGELOG.md",
     "beta": "standard-version -p beta -i CHANGELOG.md",
     "preview": "standard-version -p preview -i CHANGELOG.md",
-    "release": "standard-version -i CHANGELOG.md"
+    "release": "standard-version -r 1.1.0 -i CHANGELOG.md"
   }
 }
