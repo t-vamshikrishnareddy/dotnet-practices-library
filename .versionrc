@@ -1,0 +1,14 @@
+{
+  "header": "CHANGE LOG {{currentTag}}",
+  "types": [
+    {"type":"feat","section":"FEATURES"},
+    {"type":"fix","section":"BUG FIXES"},
+    {"type":"test","section":"TEST CASES"},
+    {"type":"docs","section":"DOCUMENTATIONS"},
+    {"type":"refactor","section":"REFACTOR"},
+    {"type":"chore","hidden": true},
+    {"type":"pref","section":"PERFORMANCE OPTIMIZATION"}
+  ],
+  "preMajor": true
+}
+

@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "standard-version": "^7.0.1"
+  },
+  "version": "1.0.0",
+  "author": {
+    "name": "Wang Yucai",
+    "email": "netowls-studio@outlook.com",
+    "url": "https://github.com/netowls-studio-dotnet/dotnet-practices-library"
+  },
+  "description": ".NET Core & .NET Framework Library",
+  "name": "dotnet-practices-library",
+  "scripts": {
+    "alpha": "standard-version -p alpha -i CHANGELOG.md",
+    "beta": "standard-version -p beta -i CHANGELOG.md",
+    "preview": "standard-version -p preview -i CHANGELOG.md",
+    "release": "standard-version -i CHANGELOG.md"
+  }
+}
