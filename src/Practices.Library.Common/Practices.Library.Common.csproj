@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; netstandard2.1; net45; netcoreapp2.0; netcoreapp2.1; netcoreapp2.2; netcoreapp3.0; netcoreapp3.1</TargetFrameworks>
+    <RootNamespace>NetowlsStudio.Practices.FoundationLibrary.Common</RootNamespace>
+    <AssemblyName>NetowlsStudio.Practices.FoundationLibrary.Common</AssemblyName>
+    <PackageId>NetowlsStudio.Practices.Library.Common</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NetowlsStudio.Practices.FoundationLibrary.Common.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\project-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <Content Include="..\..\LICESNSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </Content>
+    <Content Include="NetowlsStudio.Practices.FoundationLibrary.Common.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

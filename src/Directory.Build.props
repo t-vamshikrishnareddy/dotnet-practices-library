@@ -1,0 +1,17 @@
+﻿<Project>
+  <PropertyGroup>
+    <Version>1.1.0</Version>
+    <Authors>Wang Yucai</Authors>
+    <Company>Personal</Company>
+    <Product>Practices Library</Product>
+    <Copyright>Copyright © 2006 - 2019 Wang Yucai. All rights reserved.</Copyright>
+    <PackageLicenseFile>LICESNSE</PackageLicenseFile>
+    <RepositoryUrl>https://netowls-studio.coding.net/p/dotnet-practices/d/dotnet-practices-library/git</RepositoryUrl>
+    <PackageIcon>project-icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dotnet, dotnetcore, aspnet, aspnetcore, library</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+</PropertyGroup>
+</Project>
