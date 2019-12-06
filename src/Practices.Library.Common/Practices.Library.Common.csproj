@@ -5,6 +5,8 @@
     <RootNamespace>NetowlsStudio.Practices.FoundationLibrary.Common</RootNamespace>
     <AssemblyName>NetowlsStudio.Practices.FoundationLibrary.Common</AssemblyName>
     <PackageId>NetowlsStudio.Practices.Library.Common</PackageId>
+    <AssemblyVersion>1.1.7279.10213</AssemblyVersion>
+    <FileVersion>1.1.7279.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
@@ -31,6 +33,21 @@
     <Content Include="NetowlsStudio.Practices.FoundationLibrary.Common.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\ExceptionStringResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ExceptionStringResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\ExceptionStringResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionStringResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>
