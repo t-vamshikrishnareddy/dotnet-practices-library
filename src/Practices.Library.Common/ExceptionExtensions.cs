@@ -25,9 +25,8 @@
 */
 
 using NetowlsStudio.Practices.FoundationLibrary.Common.Resources;
-using System;
 
-namespace NetowlsStudio.Practices.FoundationLibrary.Common
+namespace System
 {
     /// <summary>为 <see cref="Exception"/> 类型提供的扩展方法。</summary>
     public static class ExceptionExtensions
