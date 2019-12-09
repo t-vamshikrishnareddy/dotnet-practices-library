@@ -35,7 +35,7 @@ _**.NET Core & .NET Framework Library**_
     | ------------------------------------------------------------ | ----- |
     | [cURL](https://curl.haxx.se/windows/dl-7.67.0_4/curl-7.67.0_4-win64-mingw.zip) 7.67.0 |       |
     | [7Zip Command Line](https://www.7-zip.org/a/7z1900-extra.7z) 19.00 |       |
-    |                                                              |       |
+    | **[Build.ps1](./docs/how-to-use-buildps1-script.md)**        |       |
     
     
     
