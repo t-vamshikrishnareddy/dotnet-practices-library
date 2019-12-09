@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.0](///compare/v1.0.1-alpha.1...v1.1.0-alpha.0) (2019-12-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Practices.Library.Common.csproj:** 调整了 src/Practices.Library.Common/ExceptionExtensions.cs 扩展方法类型的命名空间为 System.
+
+### DOCUMENTATIONS
+
+* 添加了 Build.ps1 使用说明文档 docs/how-to-use-buildps1-script.md 586f4ad
+
+
+### FEATURES
+
+* **Practices.Library.Common.csproj:** 新增具体值的接口 src/Practices.Library.Common/Objects/IValue.cs 2e85c82
+* **Practices.Library.Common.csproj:** 新增字符串类型的标识名称接口 src/Practices.Library.Common/Objects/IStringKey.cs eaffbd7
+* **Practices.Library.Common.csproj:** 新增对象名称接口 src/Practices.Library.Common/Objects/IName.cs 680fcc6
+* **Practices.Library.Common.csproj:** 新增性别枚举类型 src/Practices.Library.Common/Objects/Gender.cs 2186b59
+* **Practices.Library.Common.csproj:** 新增标识名称和值的接口 src/Practices.Library.Common/Objects/IKeyValue.cs 09106b8
+* **Practices.Library.Common.csproj:** 新增标识名称接口 src/Practices.Library.Common/Objects/IKey.cs f078a06
+* **Practices.Library.Common.csproj:** 新增校验是否启用状态的接口 src/Practices.Library.Common/Objects/IEnabled.cs df9ae09
+
+
+### BUG FIXES
+
+* **Practices.Library.Common.csproj:** 调整了 ExceptionExtensions 扩展方法类的命名空间。 65f96b7
+
 ### [1.0.1-alpha.1](///compare/v1.0.1-alpha.0...v1.0.1-alpha.1) (2019-12-09)
 
 
