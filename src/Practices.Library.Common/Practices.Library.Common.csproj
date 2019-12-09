@@ -5,7 +5,7 @@
     <RootNamespace>NetowlsStudio.Practices.FoundationLibrary.Common</RootNamespace>
     <AssemblyName>NetowlsStudio.Practices.FoundationLibrary.Common</AssemblyName>
     <PackageId>NetowlsStudio.Practices.Library.Common</PackageId>
-    <AssemblyVersion>1.1.7282.10148</AssemblyVersion>
+    <AssemblyVersion>1.1.7282.16690</AssemblyVersion>
     <FileVersion>1.1.7282.0</FileVersion>
   </PropertyGroup>
 
