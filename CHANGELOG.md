@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.1](///compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2019-12-09)
+
+
+### FEATURES
+
+* **Practices.Library.Common.csproj:** 新增别名信息接口 src/Practices.Library.Common/Objects/IAlias.cs c94b6aa
+* **Practices.Library.Common.csproj:** 新增描述信息接口 src/Practices.Library.Common/Objects/IDescription.cs 4e4f4d5
+* **Practices.Library.Common.csproj:** 添加了一组常用的 String 类型扩展方法。 00aa33e
+
 ## [1.1.0-alpha.0](///compare/v1.0.1-alpha.1...v1.1.0-alpha.0) (2019-12-09)
 
 
