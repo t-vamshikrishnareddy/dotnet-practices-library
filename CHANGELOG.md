@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.2](///compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2019-12-10)
+
+
+### BUG FIXES
+
+* 修改了 Practices.Library.Common.csproj 项目文件，调整了 XML 说明文档的生成配置。 5ead696
+
 ## [1.1.0-alpha.1](///compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2019-12-09)
 
 
