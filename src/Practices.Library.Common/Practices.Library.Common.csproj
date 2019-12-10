@@ -5,21 +5,17 @@
     <RootNamespace>NetowlsStudio.Practices.FoundationLibrary.Common</RootNamespace>
     <AssemblyName>NetowlsStudio.Practices.FoundationLibrary.Common</AssemblyName>
     <PackageId>NetowlsStudio.Practices.Library.Common</PackageId>
-    <AssemblyVersion>1.1.7282.16690</AssemblyVersion>
-    <FileVersion>1.1.7282.0</FileVersion>
+    <AssemblyVersion>1.1.7283.8215</AssemblyVersion>
+    <FileVersion>1.1.7283.0</FileVersion>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
-    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\bin\$(Configuration)\$(TargetFramework)\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
-    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>E:\Git\coding.net@practices-library\src\Practices.Library.Common\bin\$(Configuration)\$(TargetFramework)\NetowlsStudio.Practices.FoundationLibrary.Common.xml</DocumentationFile>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="NetowlsStudio.Practices.FoundationLibrary.Common.xml" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\assets\project-icon.png">
@@ -29,9 +25,6 @@
     <Content Include="..\..\LICESNSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
-    </Content>
-    <Content Include="NetowlsStudio.Practices.FoundationLibrary.Common.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
