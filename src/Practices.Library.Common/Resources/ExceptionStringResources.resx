@@ -103,4 +103,7 @@
 	<data name="ExceptionExtensions_Format_WithoutDescription" xml:space="preserve">
 		<value>系统引发了一个 {0} 类型的异常：{1}</value>
 	</data>
+	<data name="IsNotEnumType" xml:space="preserve">
+		<value>类型 {0} 不是一个有效的枚举类型。</value>
+	</data>
 </root>

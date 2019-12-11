@@ -78,5 +78,14 @@ namespace NetowlsStudio.Practices.FoundationLibrary.Common.Resources {
                 return ResourceManager.GetString("ExceptionExtensions_Format_WithoutDescription", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   查找类似 类型 {0} 不是一个有效的枚举类型。 的本地化字符串。
+        /// </summary>
+        public static string IsNotEnumType {
+            get {
+                return ResourceManager.GetString("IsNotEnumType", resourceCulture);
+            }
+        }
     }
 }

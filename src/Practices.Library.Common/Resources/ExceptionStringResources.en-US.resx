@@ -103,4 +103,7 @@
 	<data name="ExceptionExtensions_Format_WithoutDescription" xml:space="preserve">
 		<value>The system was thrown "{0}" exception: {1}</value>
 	</data>
+	<data name="IsNotEnumType" xml:space="preserve">
+		<value>The "{0}" is not an enum type.</value>
+	</data>
 </root>
