@@ -29,24 +29,30 @@ using System.Text;
 
 namespace NetowlsStudio.Practices.FoundationLibrary.Common
 {
-    /// <summary>提供了类库默认选项相关的方法。</summary>
+    /// <summary> 提供了类库默认选项相关的方法。 </summary>
     public static class LibraryDefaults
     {
-        /// <summary>默认的文化区域标识。</summary>
+        /// <summary> 默认的文化区域标识。 </summary>
         public const int DefaultCultureId = 0x804;
 
-        /// <summary>默认的文化区域名称。</summary>
+        /// <summary> 默认的文化区域名称。 </summary>
         public const string DefaultCultureName = "zh-CN";
 
-        /// <summary>默认的文化区域。</summary>
-        /// <seealso cref="System.Globalization.CultureInfo"/>
-        /// <seealso cref="DefaultCultureId"/>
+        /// <summary> 默认的日期格式化字符串。 </summary>
+        public const string DefaultDateFormat = "yyyy-MM-dd";
+
+        /// <summary> 默认的日期时间格式化字符串。 </summary>
+        public const string DefaultDateTimeFormat = "yyyy-MM-dd HH:mm:ss";
+
+        /// <summary> 默认的文化区域。 </summary>
+        /// <seealso cref="System.Globalization.CultureInfo" />
+        /// <seealso cref="DefaultCultureId" />
         public static readonly CultureInfo DefaultCulture = new CultureInfo(DefaultCultureId);
 
-        /// <summary>默认的编码。</summary>
-        /// <seealso cref="System.Text.Encoding"/>
-        /// <seealso cref="System.Text.Encoding.UTF8"/>
-        /// <seealso cref="System.Text.UTF8Encoding"/>
+        /// <summary> 默认的编码。 </summary>
+        /// <seealso cref="System.Text.Encoding" />
+        /// <seealso cref="System.Text.Encoding.UTF8" />
+        /// <seealso cref="System.Text.UTF8Encoding" />
         public static readonly Encoding DefaultEncoding = Encoding.UTF8;
     }
 }
