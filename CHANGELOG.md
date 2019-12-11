@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.3](///compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2019-12-11)
+
+
+### BUG FIXES
+
+* **Practices.Library.Common.csproj:** 调整了类库文档生成的绝对路径为相对路径。 a42e1c0
+
+
+### FEATURES
+
+* **Practices.Library.Common.csproj:** 新增字符串枚举类型的扩展方法 src/Practices.Library.Common/StringExtensions.ToEnum.cs db5f680
+* **Practices.Library.Common.csproj:** 新增字节数组类型扩展方法类 src/Practices.Library.Common/ByteExtensions.cs 278efda
+* **Practices.Library.Common/LibraryDefaults.cs:** 修改了 LibraryDefaults 类，添加了 DefaultDateFormat 和 DefaultDateTimeFormat 常量。 ca2efd1
+* **StringExtensions.cs:** 修改了扩展方法类 StringExtensions.cs，添加了 FromBase64String 扩展方法。 0bc18ea
+
 ## [1.1.0-alpha.2](///compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2019-12-10)
 
 
