@@ -24,11 +24,24 @@
 *******************************************************************************************************************************************************
 */
 
+using System;
+
 namespace NetowlsStudio.Practices.FoundationLibrary.Common
 {
-    /// <summary>为 <see cref="string"/> 类型提供的扩展方法。</summary>
+    /// <summary> 为 <see cref="string" /> 类型提供的扩展方法。 </summary>
     public static partial class StringExtensions
     {
+        /// <summary> 从 Base64 字符串获取字节数组。 </summary>
+        /// <param name="base64Str"> Base64 字符串。 </param>
+        /// <returns> 字节数组。 </returns>
+        /// <seealso cref="System.Convert" />
+        public static byte[] FromBase64String(this string base64Str)
+        {
+            if (string.IsNullOrEmpty(base64Str))
+                return null;
+            return Convert.FromBase64String(base64Str);
+        }
+
         private const decimal c_decimalZero = 0.0M;
 
         private const double c_doubleZero = 0.0;
